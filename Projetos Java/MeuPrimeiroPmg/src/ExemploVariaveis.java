@@ -39,5 +39,8 @@ public class ExemploVariaveis {
         System.out.println(c3);
         System.out.println(st1);
         System.out.println(st2);
+        System.out.println(st3);
+        System.out.println(bo1);
+        System.out.println(bo2);
     }
 }
