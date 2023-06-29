@@ -9,6 +9,6 @@ public class BalancoTrimestral {
         int mediaPorMes = despesasTrimestre / 3;
 
         System.out.println("As suas despesas trimestrais foram:R$ " + despesasTrimestre);
-        System.out.println("E sua média de despesas foi: R$ " + mediaPorMes);
+        System.out.println("E sua média de despesas foi: R$ " + mediaPorMes); //oiii
     }
 }
