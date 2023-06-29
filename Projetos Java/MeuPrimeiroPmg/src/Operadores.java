@@ -49,6 +49,7 @@ public class Operadores {
         int k = 35;
         float f = 3.5f;
         double d = f;
+        System.out.println(l);
 
         System.out.println("d: " + d);
 
