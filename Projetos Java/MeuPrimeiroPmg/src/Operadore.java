@@ -9,9 +9,6 @@ public class Operadore {
     atribuicao();
     System.out.println("Precedencia");
     precedencia();
-
-
-
     }
 
     private static void prePos(){
