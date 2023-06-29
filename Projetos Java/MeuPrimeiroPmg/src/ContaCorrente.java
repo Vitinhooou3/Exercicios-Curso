@@ -18,9 +18,5 @@ public class ContaCorrente {
         else{
             System.out.println("Um dos dados fornecidos não está correto, por favor verifique os dados fornecidos");
         }
-        
-    
-
-        
     }
 }
