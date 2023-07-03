@@ -3,7 +3,7 @@ public class Fibonacci {
         int anterior = 0;
         int atual = 1;
 
-        System.out.println("Fibonacci");
+        System.out.println("Fibonacci ");
         while (atual < 100){
             int proximo = anterior + atual;
             anterior = atual;
