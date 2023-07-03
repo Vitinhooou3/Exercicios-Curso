@@ -1,3 +1,4 @@
+package edu.funtec.condicional;
 public class Soma1000 {
     public static void main(String[] args) {
         int soma1 = 1;

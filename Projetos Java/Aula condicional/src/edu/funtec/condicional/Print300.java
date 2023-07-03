@@ -1,3 +1,4 @@
+package edu.funtec.condicional;
 public class Print300 {
     public static void main(String[] args) {
         

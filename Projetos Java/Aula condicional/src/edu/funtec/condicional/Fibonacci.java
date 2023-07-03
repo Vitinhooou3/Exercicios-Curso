@@ -1,3 +1,4 @@
+package edu.funtec.condicional;
 public class Fibonacci {
     public static void main(String[] args) {
         int anterior = 0;

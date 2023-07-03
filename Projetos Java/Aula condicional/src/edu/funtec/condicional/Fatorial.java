@@ -1,3 +1,4 @@
+package edu.funtec.condicional;
 public class Fatorial {
     
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class Fatorial {
             fatorial1 *= i;
             System.out.println("fat(" + i + ")= " + fatorial1);
         }
-        
+
         System.out.println("Fatorial2");
         for(int i = 1; i < 41; i++){
             fatorial2 *= i;
