@@ -1,4 +1,4 @@
-import javax.sound.midi.Soundbank;
+
 
 public class ExerciciosCondicionais {
     public static void main(String[] args) {
@@ -8,6 +8,9 @@ public class ExerciciosCondicionais {
         int multiplo3 = 3;
         int fatorial1 = 1;
         int fatorial2 = 1;
+        int anterior = 0;
+        int atual = 1;
+
 
         while(numeroComeco < 300){
             numeroComeco = numeroComeco + 1;
@@ -41,6 +44,16 @@ public class ExerciciosCondicionais {
             fatorial2 *= i;
             System.out.println(fatorial2);
         }
+
+        System.out.println("Fibonacci");
+        while (atual < 100){
+            int proximo = anterior + atual;
+            anterior = atual;
+            atual = proximo;
+
+            System.out.println(atual);
+        }
+
             
     }
 }
