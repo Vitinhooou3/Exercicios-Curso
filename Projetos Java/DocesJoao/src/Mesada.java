@@ -3,7 +3,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Mesada {
     public static void main(String[] args) {
-        int mesada = 50;
+        int mesada = 60;
 
         while(mesada > 0){
             int valorDoce = (int) valorAleatorio();
