@@ -2,6 +2,8 @@ package usuário;
 
 import java.util.Scanner;
 
+import Exceptions.IdadeInsuficienteException;
+
 
 public class Usuario {
 	
@@ -88,7 +90,7 @@ public class Usuario {
 		this.numeroConta = numeroConta;
 	}
 
-	public void Sacar() {
+	public void sacar() {
 		System.out.println("digite a quantia a ser sacada: ");
 		setSaque(sc.nextDouble());
 		if (getSaque() > getSaldo()){
@@ -99,12 +101,18 @@ public class Usuario {
 		}
 	}
 
-	public void Depositar() {
+	public void depositar() {
 		System.out.println("Digite o valor a ser depositado: ");
 		setDeposito(sc.nextDouble());
 		saldo += getDeposito();
 		System.out.println("Seu novo saldo é de R$ " + getSaldo());
+	}
+
+	public void verificarIdade() throws IdadeInsuficienteException{
 		
+        if (getIdade() < 18) {
+            throw new IdadeInsuficienteException("A idade mínima requerida é 18 anos.");
+        }
 	}
 	
 

@@ -1,6 +1,7 @@
 package banco;
 
 import java.util.Scanner;
+import Exceptions.IdadeInsuficienteException;
 import usuário.Usuario;
 
 public class Terminal {
@@ -17,9 +18,16 @@ public class Terminal {
 		System.out.println("CPF: ");
 		usuario.setCpf(sc.nextLine());
 
-		System.out.println("Idade: ");
-		usuario.setIdade(sc.nextInt());
+		try{
+			System.out.println("Idade: ");
+			usuario.setIdade(sc.nextInt());
 
+			usuario.verificarIdade();
+		}catch (IdadeInsuficienteException e){
+			System.out.println("Acesso negado");
+			System.exit(0);
+			System.out.println("Ocorreu um erro: " + e.getMessage());
+		}
 		
 		int resp;
 
@@ -34,12 +42,12 @@ public class Terminal {
 				switch (resp) {
 				case 1:
 					System.out.println("Realizar deposito");
-					usuario.Depositar();
+					usuario.depositar();
 					break;
 				
 				case 2:
 					System.out.println("Realizar saque");
-					usuario.Sacar();
+					usuario.sacar();
 					break;
 
 				case 3:
