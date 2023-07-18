@@ -24,9 +24,10 @@ public class Terminal {
 
 			usuario.verificarIdade();
 		}catch (IdadeInsuficienteException e){
+			System.out.println("Ocorreu um erro: " + e.getMessage());	
 			System.out.println("Acesso negado");
+		
 			System.exit(0);
-			System.out.println("Ocorreu um erro: " + e.getMessage());
 		}
 		
 		int resp;
