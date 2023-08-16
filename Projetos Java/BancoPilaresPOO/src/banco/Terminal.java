@@ -13,8 +13,9 @@ public class Terminal {
 		 
 		 Contas poupanca = new ContaPoupança(); 
 
-		 cc.transferir(70, poupanca); 
-		 	System.out.println(cc.getSaldo());
+		cc.transferir(70, poupanca); 
+		System.out.println(cc.getSaldo());
+		System.out.println(poupanca.getSaldo());
 	
 	}
 }
