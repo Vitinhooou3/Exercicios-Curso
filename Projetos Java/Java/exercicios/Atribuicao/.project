@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ConectaPostGre</name>
+	<name>Atribuicao</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1695054522570</id>
+			<id>1691511299525</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

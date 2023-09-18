@@ -1,0 +1,6 @@
+Vamos criar um programa que simula diferentes tipos de animais e suas ações. Teremos uma interface Animal que define métodos básicos, uma classe abstrata AnimalBase que implementa a interface Animal, e então criaremos algumas classes concretas que herdam da classe abstrata e implementam comportamentos específicos.
+
+
+Neste exemplo, temos uma interface Animal que define os métodos emitSound() e move(). A classe abstrata AnimalBase implementa a interface Animal e fornece uma implementação padrão para o método move(). Em seguida, criamos três classes concretas Cachorro, Passaro e Peixe que herdam de AnimalBase e implementam os métodos de acordo com o comportamento específico de cada animal.
+
+O programa AnimalSimulator cria instâncias de diferentes animais e chama seus métodos para emitir sons e realizar movimentos. Isso demonstra o uso de herança, abstração, polimorfismo e interfaces de uma maneira simples e prática, sem recorrer a contas bancárias, cartões de crédito, compras ou cargos de empresas.
