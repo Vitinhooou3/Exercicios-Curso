@@ -8,8 +8,10 @@ export class EnderecoService {
 
   constructor(private http: HttpClient) { }
 
+  baseUrl: string ='https://viacep.com.br/ws'
+
   getEndereco(cep: string)  {
-    return this.http.get<any>(`https://viacep.com.br/ws/${cep}/json/`)
+    return this.http.get<any>(`${this.baseUrl}/${cep}/json/`)
 
   }
 
