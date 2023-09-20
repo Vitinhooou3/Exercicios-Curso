@@ -1,0 +1,28 @@
+<h1 (click)="clicked()">hello {{name}}!</h1>
+<br>
+
+
+<p>{{count}}</p>
+<button (click)="somar()">+1</button>
+<button (click)="subtrair()">-1</button>
+
+
+
+<ul *ngIf="isVisible">
+    <li *ngFor="let item of list">
+        valor:{{item.name}}
+    </li>
+</ul>
+
+
+
+<div>
+    <Label>Nome: </Label>
+    <input type="text" [(ngModel)]="nome">
+    <button (click)="submit()">submit</button>
+</div>
+<br>
+<button (click)="mudarRota()">mudar página</button>
+<br>
+
+<button (click)="buscar()">Endereço FODA</button>
